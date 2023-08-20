@@ -1,0 +1,168 @@
+body {
+    background: linear-gradient(to bottom, #000000, #FF5733); /* Adjust the color codes as needed */
+    margin: 0;
+    padding: 20px; /* Ensure the gradient covers the entire viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: whitesmoke;
+}
+
+/* Create the sparkle animation */
+@keyframes sparkle {
+    0% {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    50% {
+        opacity: 10;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+}
+
+/* Style the sparkle elements */
+.sparkle {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: rgba(207, 210, 62, 0.7); /* Adjust the color and opacity of the sparkle */
+    border-radius: 50%;
+    animation: sparkle 2s linear infinite;
+}
+
+/* Create multiple sparkles by adding more .sparkle elements */
+.sparkle1 {
+    top: 10%;
+    left: 20%;
+}
+
+.sparkle4 {
+    top: 40%;
+    left: 60%;
+}
+.sparkle5 {
+    top: 80%;
+    left: 20%;
+}
+.sparkle6 {
+    top: 90%;
+    left: 60%;
+}
+.sparkle7 {
+    top: 80%;
+    left: 50%;
+}
+.sparkle1 {
+    top: 70%;
+    left: 30%;
+}
+.sparkle2 {
+    top: 30%;
+    left: 60%;
+}
+
+.sparkle3 {
+    top: 50%;
+    left: 40%;
+}
+
+
+.main-heading{
+    color:gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-decoration:underline;
+    margin-bottom: 40px;
+}
+.description{
+    margin-top: 10px;
+    font-size: 29px;
+    color: whitesmoke;
+    font-weight: 700;
+
+}
+/* Define the initial button style */
+.Registerbutton {
+    background-color:transparent;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 300px;
+
+    border: 8px solid #ff5733; 
+    color:aqua; /* Text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+/* Define the button style when clicked */
+.Registerbutton:active {
+    background-color: #ff5733; /* New color when clicked */
+}
+/* Style the unordered list */
+ul {
+    color: whitesmoke;
+    list-style-type: disc; /* Set the list item marker to a disc (default) */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style the list items */
+ul li {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0; /* Remove default margin */
+    padding: 8px 0; /* Add padding to the top and bottom of each list item */
+}
+
+/* Add additional styles for hover or active state, if desired */
+ul li:hover {
+    background-color:rgb(41, 31, 31); /* Background color on hover */
+}
+
+ul li a {
+    text-decoration: none; /* Remove underlines from links within list items */
+    color: #0074e4; /* Text color for links within list items */
+}
+
+.image1{
+    height: 350px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    transform: rotate(35deg);
+    border-radius: 25px;
+    margin-left: 20px;
+}
+.section_container{
+    background-image: url("https://wallpapercave.com/wp/wp2042026.jpg");
+    height: 70vh;
+   padding:3%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+}
+.heading{
+    color:aqua;
+   
+    font-size: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+  
+}
+.para{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.heading1{
+    color: white;
+    font-size:4vh;
+    
+}
